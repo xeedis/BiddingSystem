@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8A7CFFF3-A498-4398-B713-2E9D33E2599D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3B513810-CAFB-4BED-B25D-B8C65A2A864D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrapper", "Bootstrapper", "{0E65E7A7-9C2D-430C-8EC3-EAA7C87E6605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiddingSystem.Bootstrapper", "src\Bootstrapper\BiddingSystem.Bootstrapper\BiddingSystem.Bootstrapper.csproj", "{30643760-530D-4700-9AB7-E1A12B2FE241}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{C48B2BDC-004F-4FA7-BA64-D714CE26BE85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{5D73BF06-8566-4676-95A7-7054E4175D08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiddingSystem.Shared.Abstractions", "src\Shared\BiddingSystem.Shared.Abstractions\BiddingSystem.Shared.Abstractions.csproj", "{15E6C21B-D9EF-4322-8FA9-1FE1354D299D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiddingSystem.Shared.Infrastructure", "src\Shared\BiddingSystem.Shared.Infrastructure\BiddingSystem.Shared.Infrastructure.csproj", "{DD564B89-7B9D-4BBE-AB95-F542CB1C1E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiddingSystem.Shared.Tests", "src\Shared\BiddingSystem.Shared.Tests\BiddingSystem.Shared.Tests.csproj", "{B8E95106-52AE-4843-9DF1-4A7AD03D8932}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E65E7A7-9C2D-430C-8EC3-EAA7C87E6605} = {8A7CFFF3-A498-4398-B713-2E9D33E2599D}
+		{30643760-530D-4700-9AB7-E1A12B2FE241} = {0E65E7A7-9C2D-430C-8EC3-EAA7C87E6605}
+		{C48B2BDC-004F-4FA7-BA64-D714CE26BE85} = {8A7CFFF3-A498-4398-B713-2E9D33E2599D}
+		{5D73BF06-8566-4676-95A7-7054E4175D08} = {8A7CFFF3-A498-4398-B713-2E9D33E2599D}
+		{15E6C21B-D9EF-4322-8FA9-1FE1354D299D} = {5D73BF06-8566-4676-95A7-7054E4175D08}
+		{DD564B89-7B9D-4BBE-AB95-F542CB1C1E43} = {5D73BF06-8566-4676-95A7-7054E4175D08}
+		{B8E95106-52AE-4843-9DF1-4A7AD03D8932} = {5D73BF06-8566-4676-95A7-7054E4175D08}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30643760-530D-4700-9AB7-E1A12B2FE241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30643760-530D-4700-9AB7-E1A12B2FE241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30643760-530D-4700-9AB7-E1A12B2FE241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30643760-530D-4700-9AB7-E1A12B2FE241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E6C21B-D9EF-4322-8FA9-1FE1354D299D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E6C21B-D9EF-4322-8FA9-1FE1354D299D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E6C21B-D9EF-4322-8FA9-1FE1354D299D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E6C21B-D9EF-4322-8FA9-1FE1354D299D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD564B89-7B9D-4BBE-AB95-F542CB1C1E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD564B89-7B9D-4BBE-AB95-F542CB1C1E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD564B89-7B9D-4BBE-AB95-F542CB1C1E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD564B89-7B9D-4BBE-AB95-F542CB1C1E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8E95106-52AE-4843-9DF1-4A7AD03D8932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E95106-52AE-4843-9DF1-4A7AD03D8932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E95106-52AE-4843-9DF1-4A7AD03D8932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E95106-52AE-4843-9DF1-4A7AD03D8932}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
